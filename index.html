@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Betting Game</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+</head>
+<body>
+  <h3>Let's Play!</h3>
+  <form>
+    <label>Bet</label>
+    <input id="bet" type="text" name="bet" placeholder="$5 - $10">
+    <label>Guess</label>
+    <input id="guess" type="text" name="guess" placeholder="1 - 10">
+    <button id="btn">Submit</button>
+    <button id="reset">Reset</button>
+  </form>
+  <div>
+    <h4>Remaining Amount: </h4>
+    <h5 id="bank"></h5>
+  </div>
+  <div>
+    <h4>Correct Answer: </h4>
+    <h5 id="answer"></h5>
+  </div>
+  <script src="betting_game.js"></script>
+</body>
+</html>
